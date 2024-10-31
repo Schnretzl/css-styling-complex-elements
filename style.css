@@ -28,3 +28,18 @@ img:hover {
 table {
     margin-left: 20px;
 }
+
+button {
+    margin: 20px;
+    background-color: coral;
+    border-radius: 3px;
+    border: none;
+    height: 70px;
+    width: 150px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+}
