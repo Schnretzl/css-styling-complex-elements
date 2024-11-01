@@ -6,7 +6,12 @@ body {
 }
 
 a {
-    transition: .5s;
+    transition: .3s;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 li > a:hover {
@@ -98,4 +103,9 @@ textarea:focus {
 #form-submit:hover {
     background-color: lightblue;
     cursor: pointer;
+}
+
+#nav-bar-2 > li {
+    display: inline;
+    margin: 10px;
 }
