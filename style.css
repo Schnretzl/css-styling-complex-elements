@@ -109,3 +109,36 @@ textarea:focus {
     display: inline;
     margin: 10px;
 }
+
+#nav-bar-2 > li:before {
+    content: ">";
+}
+
+#products {
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+#products th, #products td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+#products th {
+    background-color: #f4f4f4;
+}
+
+#products tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#products tbody tr:nth-child(odd) {
+    background-color: #e1e1e1;
+}
+
+#products tbody tr:hover {
+    background-color:burlywood;
+}
